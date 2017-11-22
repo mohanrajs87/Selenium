@@ -19,7 +19,7 @@ public RemoteWebDriver driver;
 //MOhanraj Testing GIT
 
 
-public void invokeApp(String browser, String url) {
+public void invokeApp(int browser, String url) {
 try {
 
 if(browser.equalsIgnoreCase("chrome")){
