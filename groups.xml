@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LeafTaps">
+<groups>
+<run>
+<include name = "common"> </include>
+<include name = "sanity"> </include>
+<include name = "smoke"></include>
+</run>
+
+ </groups>
+  <test name="Groups">
+    <classes>
+      <class name="week4.day1.WCreateLead"/>
+      <class name="week4.day1.WDeleteLead"/>
+      <class name="week4.day1.WDuplicateLead"/>
+      <class name="week4.day1.WEditLead"/>
+      <class name="week4.day1.WMergeLead"/>
+    </classes>
+  </test> <!-- Groups -->
+</suite> <!-- LeafTaps -->
